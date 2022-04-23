@@ -1,0 +1,74 @@
+#main{
+  background-color:#18191A;
+}
+#Home{
+  display: flex;
+}
+/* =======================================left-Side=========================================== */
+.left-side{
+  width: 23%;
+  margin-right: 25px;
+  background-color: #202122;
+
+}
+.img img{
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  position: relative;
+}
+.img::after{
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 170px;
+  left: 173px;
+}
+.left-side h4{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  
+}
+.left-side p{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #767676;
+  margin-top: -20px;
+}
+.left-icon{
+  display: flex;
+  justify-content: space-between;
+}
+.left-icon div{
+  height: 25px;
+  width:25px;
+  background-color: #FFB400;
+  text-align: center;border-radius: 50%;
+  margin-right: 10px;
+}
+.left-icon div i{
+  font-size: 14px;
+  color: #fff;
+}
+.hr{
+  color: #fff;
+  height: 5px;
+}
+/* =======================================left-Side End=========================================== */
+
+
+/*======================================content============================================ */
+.content{
+  width: 70%;
+  margin: 25px;
+}
+/*==================================content End============================================ */
+.Right-side{
+  width: 7%;
+}
