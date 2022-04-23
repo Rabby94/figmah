@@ -1,3 +1,7 @@
+:root {
+  --blue: #FFB400;
+  --white: #ffffff;
+}
 #main{
   background-color:#18191A;
 }
@@ -41,25 +45,64 @@
   color: #767676;
   margin-top: -20px;
 }
+/* ============================== left-icon=================================*/
 .left-icon{
   display: flex;
   justify-content: space-between;
+ margin-bottom: 30px;
 }
 .left-icon div{
-  height: 25px;
-  width:25px;
+  height: 22px;
+  width:22px;
   background-color: #FFB400;
-  text-align: center;border-radius: 50%;
-  margin-right: 10px;
+  text-align: center;
+  border-radius: 50%;
+  margin:0px 5px ;
 }
 .left-icon div i{
-  font-size: 14px;
+  font-size:12px;
   color: #fff;
+  text-align: center;
+  margin-bottom: 5px;
 }
-.hr{
+/* ============================== left-conicon End=================================*/
+.brack{
+  color: #f8ecec;
+ padding: 1.5px 0px;
+ 
+}
+/* ============================== left-content=================================*/
+.left-content{
+  align-items: center;
+  display: flex;
+}
+.left-content h2{
+  font-size:15px;
+  color: #000;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  margin-top: 5px;
+}
+.left-content-div1{
+  background-color:var(--blue) ;
+}
+.left-content-div2 h2{
+  font-size: 16px;
   color: #fff;
-  height: 5px;
+  font-weight: 400;
 }
+.left-content-div3 h2{
+  font-size: 16px;
+  color: #7EB942;
+  font-weight: 400;
+}
+.left-content-div4 h2{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 200;
+}
+/* ============================== left-content End=================================*/
+
 /* =======================================left-Side End=========================================== */
 
 
