@@ -2,47 +2,12 @@
   --yellow: #FFB400;
   --white: #ffffff;
 }
-#main{
-  background-color:#18191A;
-  display: flex;
+body{
+  background-color: #000000;
 }
-#Home{
-  display: flex;
-}
-/* ================================@media============================= */
-@media (max-width: 991px) {
-  .left-side { display: none;
-    left: -300px;}
-  .Right-side { display: none;
-    margin: -500px;}
-  #mide{
-    width: 100%;
-    margin-left:0: ;
-  
-  }
-  #Home{
-    margin:-20%;
-    padding: 0;
-  }
-  
-}
-@media(min-width: 992px){
-  .nav-bar{display: none;}
-}
-/* ================================@media End========================= */
-/* =======================================left-Side=========================================== */
-.left-side{
-  width: 23%;
-  margin-right: 25px;
-  background-color: #202122;
-  position: relative;
 
-}
-.img img{
-  width: 150px;
-  height: 150px;
-  background-color: #fff;
-}
+/* =======================================left-Side=========================================== */
+
 .profile{
   position: relative;
 }
@@ -61,36 +26,35 @@
   font-size: 18px;
   font-weight: 500;
   font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
-  
 }
-.left-side p{
+.developer{
   font-size: 15px;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
   color: #767676;
-  margin-top: -20px;
 }
 /* ============================== left-icon=================================*/
-.left-icon{
-  display: flex;
-  justify-content: space-between;
- margin-bottom: 30px;
-}
-.left-icon div{
-  height: 22px;
-  width:22px;
-  background-color: #FFB400;
-  text-align: center;
-  border-radius: 50%;
-  margin:0px 5px ;
-}
-.left-icon div i{
-  font-size:12px;
+.left-icon a{
+  font-size: 15px;
+  display: inline-block;
+  background:var(--yellow);
   color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
   text-align: center;
-  margin-bottom: 5px;
+  width: 36px;
+  height: 32px;
+  transition: 0.3s;
 }
+.left-icon a :hover,a{
+
+color:#121df0;
+transition: 0.2s;
+}
+
+
 /* ============================== left-conicon End=================================*/
 .brack{
   color: #f8ecec;
@@ -123,9 +87,9 @@
   font-weight: 400;
 }
 .left-content-div4 h2{
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
-  font-weight: 200;
+  font-weight: 100;
 }
 /* ============================== left-content End=================================*/
 
@@ -143,8 +107,6 @@
 }
 .component{
   width: 100%;
-}
-.component-box{
 }
 .component h2{
   color: #fff;
@@ -182,10 +144,7 @@ margin-right: 10px;
 color: var(--blue);
 }
 /* ====================================extra-shills End================================== */
-.download-button{
-  position: relative;
-  width: 100%;
-}
+
 
 .download{
   height: 40px;
@@ -193,36 +152,27 @@ color: var(--blue);
   border: none;
   font-size: 15px;
   font-weight: 400;
-  position: absolute;
-  top: 15px;
-  left: 15px;
   padding: 10px;
 
 }
 .download i{
-  margin-left: 10px;
+ margin-left: 5px;
   font-size: 15px;
 }
-/* =======================================left-Side End=========================================== */
 
+/* =======================================left-Side End================================= */
 
-/*======================================content============================================ */
-#mide{
-  width: 70%;
-
-}
-.nav-bar{
-  height: 80px;
-}
-.row{
-  background-color: #202122;
+/* ==========================================main content================================= */
+.bg-image{
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide-lorem{
+  font-size: 14;
   color: #fff;
   opacity: 40%;
+
 }
-/*==================================content End============================================ */
-.Right-side{
-  width: 7%;
-  margin-left: 25px;
-}
+/* =================================main content End ================================= */
