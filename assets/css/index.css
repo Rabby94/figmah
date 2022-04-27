@@ -175,4 +175,11 @@ color: var(--blue);
   opacity: 40%;
 
 }
+.student-date{
+  font-size: 10px;
+  padding: 5px;
+  background-color: #f8b61c;
+  
+
+}
 /* =================================main content End ================================= */
