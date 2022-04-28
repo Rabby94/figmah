@@ -183,3 +183,43 @@ color: var(--blue);
 
 }
 /* =================================main content End ================================= */
+.right-icon{
+  height: 245vh;
+  text-align: center;
+}
+.right-icon div{
+
+}
+.right-icon div{
+width:40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.right-icon div div{
+  background-color: #767676;
+}
+.right-icon div div:hover{
+  background-color:var(--yellow);
+  transition: 0.s;
+}
+.right-icon div div a {
+ color: #fff;
+ font-size: 16px;
+}
+
+
+#riteSideModal{
+width: 13%;
+float: right;
+align-items: center;
+margin-left: 85%;
+}
+
+@media (max-width:768px) {
+  .right-icon{
+    height: 90vh;
+  }
+}

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figmah Desing</title>
-
   <!-- -------Bootstrap---------- -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/icons/bootstrap-icons.css">
-
+  <!-- -------AOS CSS----- -->
+  <link rel="stylesheet" href="./assets/aos/dist/aos.css">
   <!-- --------Font Family------ -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,10 @@
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
-      <!-- -------------Left Side------------------------ -->
-      <div class="col-md-3 d-none d-lg-block">
+      <!-- ---------------------------Left Side------------------------ -->
+      <div class="col-md-3 d-none d-lg-block " data-aos="fade-up">
         <!-- left side bar -->
         <div id="leftside-bar" class="bg-dark h-auto pb-4">
           <div class="container text-center">
@@ -224,34 +223,33 @@
           </div>
         </div>
       </div>
-      <!------------------------------- Mide content ------------------------------>
+      <!----------------------------- Mide content ------------------------>
       <div class="col-md-12 col-lg-8">
         <!-- ---------Hero Section-------- -->
         <section id="hero">
           <div class="container">
-
             <div class="row mb-5 mb-md-0">
               <div class="col-12 d-block d-lg-none my-4">
                 <nav class="navbar bg-dark fixed-top">
-                  <button class="btn">
+                  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="bi bi-list text-light fs-2 px-4"></i>
                   </button>
-                  <button class="btn float-end">
+                  <button type="button" class="btn btn-dark float-end" data-bs-toggle="modal" data-bs-target="#riteSideModal">
                     <i class="bi bi-three-dots-vertical text-light fs-2 px-4 "></i>
                   </button>
                 </nav>
               </div>
             </div>
 
-            <div class="row bg-image">
+            <div class="row bg-image " data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500">
               <div class="col-lg-8 col-12 p-4 text-center">
-                <h1 class="text-light">
+                <h2 class="text-light">
                   I'm Rayan Adlrdard
                   <span class="text-warning">
                     Front-end
                   </span>
                   Developer
-                </h1>
+                </h2>
                 <p class="slide-lorem d-none d-md-block">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Et, volutpat feugiat placerat lobortis. Natoque rutrum
@@ -277,7 +275,7 @@
             <div class="section-title">
               <div class="row justify-content-center py-3">
                 <div class="col-12 col-md-8 text-center">
-                  <h1 class="text-light fw-bold">My Services</h1>
+                  <h2 class="text-light fw-bold">My Services</h2>
                   <p class="slide-lorem">
                     Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint. Velit officia consequat duis enim
@@ -301,10 +299,10 @@
               </div>
               <div class="col-md-4 mt-4">
                 <div class="card text-center bg-dark">
-                  <i class="fa-brands fa-figma display-1 text-warning py-3"></i>
+                  <i class="fa-brands fa-figma display-2 text-warning py-3"></i>
                   <div class="card-body">
-                    <h4 class="card-title text-light">UI/UX Design
-                    </h4>
+                    <h3 class="card-title text-light">UI/UX Design
+                    </h3>
                     <p class="card-text text-muted py-2">
                      Mobile app, Website desing
                     </p>
@@ -313,7 +311,7 @@
               </div>
               <div class="col-md-4 mt-4">
                 <div class="card text-center bg-dark">
-                  <i class="bi bi-mic display-2 text-warning py-4"></i>
+                  <i class="bi bi-mic display-2 text-warning py-3"></i>
                   <div class="card-body">
                     <h4 class="card-title text-light">Sound Desing</h4>
                     <p class="card-text text-muted py-2">
@@ -348,7 +346,7 @@
                 <div class="card text-center bg-dark">
                   <div class="card-body">
                     <h4 class="card-title text-light">Advertising</h4>
-                    <p class="card-text text-muted py-2">
+                    <p class="card-text text-muted py-3">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid?
                     </p>
                     <a href="" class="text-warning nav-link ">Order Now<i class="fa-solid fa-greater-than fs-8 px-3"></i></a>
@@ -362,7 +360,7 @@
             <div class="section-title">
               <div class="row justify-content-center py-5">
                 <div class="col-12 col-md-8 text-center">
-                  <h1 class="text-light fw-bold">Price plans</h1>
+                  <h2 class="text-light fw-bold">Price plans</h2>
                   <p class="slide-lorem">
                     Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint. Velit officia consequat duis enim
@@ -561,7 +559,7 @@
             <div class="section-title">
               <div class="row justify-content-center py-5">
                 <div class="col-12 col-md-8 text-center">
-                  <h1 class="text-light fw-bold">Re-commendations</h1>
+                  <h2 class="text-light fw-bold">Re-commendations</h2>
                   <p class="slide-lorem">
                     Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint. Velit officia consequat duis enim
@@ -681,7 +679,7 @@
               <div class="section-title">
                 <div class="row justify-content-center py-5">
                   <div class="col-12 col-md-8 text-center">
-                    <h1 class="text-light fw-bold">Education</h1>
+                    <h2 class="text-light fw-bold">Education</h2>
                     <p class="slide-lorem">
                       Amet minim mollit non deserunt ullamco est sit aliqua
                       dolor do amet sint. Velit officia consequat duis enim
@@ -889,7 +887,7 @@
             <div class="section-title">
               <div class="row justify-content-center py-5">
                 <div class="col-12 col-md-8 text-center">
-                  <h2 class="text-light fw-bold">Bio</h2>
+                  <h2 class="text-light fw-bold">Blog</h2>
                   <p class="slide-lorem">
                     Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint. Velit officia consequat duis enim
@@ -925,7 +923,7 @@
                 <div class="col-12 col-md-4">
                   <div class="card">
                     <div class="card-img">
-                      <img src="./assets/img/blog/blog 1.png" class="img-fluid" alt="" />
+                      <img src="./assets/img/blog/blog 2.png" class="img-fluid" alt="" />
                     </div>
                     <div class="card-body">
                       <h5 class="text-dark">
@@ -945,7 +943,7 @@
                 <div class="col-12 col-md-4">
                   <div class="card">
                     <div class="card-img h-75">
-                      <img src="./assets/img/blog/blog 1.png" class="img-fluid" alt="" />
+                      <img src="./assets/img/blog/blog 3.png" class="img-fluid" alt="" />
                     </div>
                     <div class="card-body">
                       <h5 class="text-dark">
@@ -971,7 +969,7 @@
           <div class="container mt-5">
             <div class="row justify-content-between">
               <div class="col-md-7 order-1">
-                <h1 class="text-light fw-bold py-3 fs-5 text-center text-md-start">Leave us your info</h1>
+                <h2 class="text-light fw-bold py-3 fs-5 text-center text-md-start">Leave us your info</h2>
                 <form action="" method="post" class="bg-dark px-3 rounded">
                   <div class="firstName py-1">
                     <label class="text-light py-3" for="firstname">Your Full Name (<span class="text-warning">
@@ -1000,7 +998,7 @@
               </div>
               
               <div class="col-md-4  order-2">
-                <h1 class="text-light fw-bold py-3 fs-5 text-center text-md-start">Contact information</h1>
+                <h2 class="text-light fw-bold py-3 fs-5 text-center text-md-start">Contact information</h2>
                   <div class="row">
                     <div class="col-12">
                       <div class="card bg-dark p-2">
@@ -1031,7 +1029,7 @@
                       <div class="card bg-dark p-2">
                         <div class="card-icon text-center py-2">
                           <span class="p-2 bg-warning rounded-circle">
-                            <i class="bi fs-5 text-dark bi-map"></i>
+                            <i class="bi bi-envelope-fill"></i>
                           </span>
                         </div>
                         <div class="card-body px-1">
@@ -1057,7 +1055,7 @@
                       <div class="card bg-dark p-2">
                         <div class="card-icon text-center py-2">
                           <span class="p-2 bg-warning rounded-circle">
-                            <i class="bi fs-5 text-dark bi-map"></i>
+                            <i class="bi bi-phone-fill"></i>
                           </span>
                         </div>
                         <div class="card-body px-1">
@@ -1092,6 +1090,9 @@
             </div>
           </div>
 
+
+         
+
         </section>
         <!-- --------------logo ------- -->
         <section class="logo"> 
@@ -1122,29 +1123,329 @@
                   <span class="px-1">Shojib</span>
                   <span class="px-2">power By </span>
                   <a href="https://semicolonit.com/" class="text-warning">Semicolon IT</a>
-                </h1>
+                </h2>
               </div>
               </div>
             </div>
           </div>
         </section>
       </div>
-      <!----------------------------- Mide content End----------------------------->
-
-      <!-- --------------------------------Right side--------------------- -->
+      <!-- -----------------------------Right side--------------------- -->
       <div class="col-md-1 d-none d-lg-block">
-      </div>
+        <div class="  right-icon container bg-dark m-auto ">
+            <div class="row justify-content-center ">
+              <div class=" col-8 my-5 bg-dark rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-mask"></i>
+                </a>
+              </div>
+              <div class="col-8 mb-3 mt-5 rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-house-fill"></i>
+                </a>
+              </div>
+              <div class="col-8 mb-3 rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-file-earmark-code-fill"></i>
+                </a>
+              </div>
+              <div class="col-8 mb-3  rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-mortarboard"></i>
+                </a>
+              </div>
+              <div class="col-8 mb-3  rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-briefcase-fill"></i>
+                </a>
+              </div>
+              <div class="col-8 mb-3  rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-vector-pen"></i>
+                </a>
+              </div>
+              <div class="col-8 mb-3  rounded-circle text-center">
+                <a href="">
+                  <i class="bi bi-chat-left-fill"></i>
+                </a>
+              </div>
+          </div>
+       </div>
+     </div>
 
-
-  <!-- -----------------Main Row End---------------------- -->
     </div>
-<!-- -------------------Main Container ENd --------------- -->
 </div>
 
+
+    <!-- Modal 1 -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="leftside-bar" class="bg-dark h-auto pb-4">
+              <div class="container text-center">
+                <div class="profile">
+                  <div class="img pt-5">
+                    <img class="img-fluid" src="./assets/img/profile.png" alt="">
+                  </div>
+                </div>
+                <h4 class="text-light fs-4 pt-4">Rayan Adlardard</h4>
+                <p class="Developer py-2">Font-end Developer</p>
+
+
+                <div class="left-icon d-flex justify-content-between mb-4">
+                  <a href="nav-link"><i class="bi bi-facebook"></i></a>
+                  <a href="nav-link"><i class="bi bi-instagram"></i></a>
+                  <a href="nav-link"><i class="bi bi-twitter"></i></a>
+                  <a href="nav-link"><i class="bi bi-linkedin"></i></a>
+                  <a href="nav-link"><i class="bi bi-youtube"></i></a>
+                  <a href="nav-link"><i class="bi bi-dribbble"></i></a>
+                </div>
+
+                <hr class="text-light my-4" />
+
+                <!-- ------------------left-content------------------------ -->
+                <div class=" left-content d-flex justify-content-between py-1">
+                  <div class="left-content-div1 px-3">
+                    <h2>Age</h2>
+                  </div>
+                  <div class="left-content-div2">
+                    <h2>24</h2>
+                  </div>
+                </div>
+                <div class=" left-content d-flex justify-content-between py-1">
+                  <div class="left-content-div1 px-3">
+                    <h2>Residence: </h2>
+                  </div>
+                  <div class="left-content-div2">
+                    <h2>BD</h2>
+                  </div>
+                </div>
+                <div class=" left-content d-flex justify-content-between py-1">
+                  <div class="left-content-div1 px-3">
+                    <h2>Freelance:</h2>
+                  </div>
+                  <div class="left-content-div3">
+                    <h2>Available</h2>
+                  </div>
+                </div>
+                <div class=" left-content d-flex justify-content-between py-1">
+                  <div class="left-content-div1 px-3">
+                    <h2>Address:</h2>
+                  </div>
+                  <div class="left-content-div4 col-6">
+                    <h2>Jashore,Bangladesh</h2>
+                  </div>
+                </div>
+
+                <!-- ------------------left-content End------------------------ -->
+                <hr class="text-light my-4" />
+                <!------------------------Languages-------------------------  -->
+                <div class="component-section">
+                  <h2 class="title py-2">Languages</h2>
+                  <div class="component">
+                    <div class=" d-flex justify-content-between py-1">
+                      <div>
+                        <h2>Bangla</h2>
+                      </div>
+                      <div>
+                        <h2>100%</h2>
+                      </div>
+                    </div>
+                    <div class=" component-box component-border">
+                      <div class="component-item mx-1 w-100"></div>
+                    </div>
+                  </div>
+
+                  <div class="component">
+                    <div class=" component-box d-flex justify-content-between py-1">
+                      <div>
+                        <h2>English</h2>
+                      </div>
+                      <div>
+                        <h2>80%</h2>
+                      </div>
+                    </div>
+                    <div class="component-border">
+                      <div class="component-item mx-1 " style="width: 80%;"></div>
+                    </div>
+                  </div>
+                  <div class="component">
+                    <div class=" component-box d-flex justify-content-between py-1">
+                      <div>
+                        <h2>Spanish</h2>
+                      </div>
+                      <div>
+                        <h2>60%</h2>
+                      </div>
+                    </div>
+                    <div class="component-border">
+                      <div class="component-item mx-1" style="width: 60%;"></div>
+                    </div>
+                  </div>
+                </div>
+                <!------------------------Languages end-------------------------  -->
+                <hr class="text-light my-4" />
+                <!------------------------ Skils  ------------------------  -->
+                <div class="component-section">
+                  <h2 class="title py-2">Skills</h2>
+
+                  <div class="component">
+                    <div class=" d-flex justify-content-between py-1">
+                      <div>
+                        <h2>HTML</h2>
+                      </div>
+                      <div>
+                        <h2>90%</h2>
+                      </div>
+                    </div>
+                    <div class=" component-box component-border">
+                      <div class="component-item mx-1" style="width: 90%;"></div>
+                    </div>
+                  </div>
+                  <div class="component">
+                    <div class=" component-box d-flex justify-content-between py-1">
+                      <div>
+                        <h2>CSS</h2>
+                      </div>
+                      <div>
+                        <h2>85%</h2>
+                      </div>
+                    </div>
+                    <div class="component-border">
+                      <div class="component-item mx-1 " style="width: 85%;"></div>
+                    </div>
+                  </div>
+                  <div class="component">
+                    <div class=" component-box d-flex justify-content-between py-1">
+                      <div>
+                        <h2>JS</h2>
+                      </div>
+                      <div>
+                        <h2>80%</h2>
+                      </div>
+                    </div>
+                    <div class="component-border">
+                      <div class="component-item mx-1" style="width: 80%;"></div>
+                    </div>
+                  </div>
+                  <div class="component">
+                    <div class=" component-box d-flex justify-content-between py-1">
+                      <div>
+                        <h2>PHP</h2>
+                      </div>
+                      <div>
+                        <h2>75%</h2>
+                      </div>
+                    </div>
+                    <div class="component-border">
+                      <div class="component-item mx-1" style="width: 75%;"></div>
+                    </div>
+                  </div>
+                  <div class="component">
+                    <div class=" component-box d-flex justify-content-between py-1">
+                      <div>
+                        <h2>WordPress</h2>
+                      </div>
+                      <div>
+                        <h2>85%</h2>
+                      </div>
+                    </div>
+                    <div class="component-border">
+                      <div class="component-item mx-1" style="width: 85%;"></div>
+                    </div>
+                  </div>
+                </div>
+                <!------------------------ Skils  End----------------------  -->
+                <hr class="text-light my-4" />
+                <!------------------------ Extra Skils  ------------------------  -->
+                <div class="extra-shills">
+                  <h2 class="title py-2">Extra Skills</h2>
+                  <a href=""><i class="bi bi-files"></i>Bootstrap, Materialize</a>
+                  <a href=""><i class="bi bi-files"></i>Stylus, Sass, Less </a>
+                  <a href=""><i class="bi bi-files"></i> Gulp, Webpack, Grunt</a>
+                  <a href="" class="pb-3"><i class="bi bi-files"></i> GIT Knowledge</a>
+                </div>
+                <!------------------------ Extra Skils  End----------------------  -->
+                <hr class="text-light my-4" />
+                <!-- ---Download button----- -->
+                <div class="download-button">
+                  <button class="download w-80 px-5">
+                    <span>Download Cv</span>
+                    <i class="bi bi-box-arrow-down">
+                    </i>
+                  </button>
+                </div>
+                <!-- ---Download button End----- -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade" id="riteSideModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="riteSideModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark ">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body ">
+            <div class="  right-icon container bg-dark m-auto ">
+              <div class="row justify-content-center ">
+                <div class=" col-8 my-5 bg-dark rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-mask"></i>
+                  </a>
+                </div>
+                <div class="col-8 mb-3 mt-5 rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-house-fill"></i>
+                  </a>
+                </div>
+                <div class="col-8 mb-3 rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-file-earmark-code-fill"></i>
+                  </a>
+                </div>
+                <div class="col-8 mb-3  rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-mortarboard"></i>
+                  </a>
+                </div>
+                <div class="col-8 mb-3  rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-briefcase-fill"></i>
+                  </a>
+                </div>
+                <div class="col-8 mb-3  rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-vector-pen"></i>
+                  </a>
+                </div>
+                <div class="col-8 mb-3  rounded-circle text-center">
+                  <a href="">
+                    <i class="bi bi-chat-left-fill"></i>
+                  </a>
+                </div>
+            </div>
+        </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
   <!-- -----------------Bootstrap JS---------------- -->
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/bootstrap/icons/bootstrap-icons.json"></script>
   <script src="https://kit.fontawesome.com/7fa91b9cfc.js" crossorigin="anonymous"></script>
+  <script src="./assets/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
